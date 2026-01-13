@@ -1,0 +1,28 @@
+{
+  "name": "@zigbee-visualizer/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript type definitions for IKEA Dirigera API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "dirigera",
+    "ikea",
+    "zigbee",
+    "types",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ]
+}
